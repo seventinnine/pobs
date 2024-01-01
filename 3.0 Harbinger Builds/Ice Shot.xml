@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="90" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Raider" mainSocketGroup="1" viewMode="ITEMS" banditCruel="None">
+		<PlayerStat stat="AverageDamage" value="8220.4387766319"/>
+		<PlayerStat stat="Speed" value="2.6532"/>
+		<PlayerStat stat="Speed" value="2.6532"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="46.65"/>
+		<PlayerStat stat="CritChance" value="57.23022"/>
+		<PlayerStat stat="CritMultiplier" value="4.34"/>
+		<PlayerStat stat="HitChance" value="80"/>
+		<PlayerStat stat="TotalDPS" value="21810.46816216"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="WithPoisonDPS" value="21810.46816216"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="28"/>
+		<PlayerStat stat="ManaCost" value="45"/>
+		<PlayerStat stat="Str" value="84"/>
+		<PlayerStat stat="ReqStr" value="68"/>
+		<PlayerStat stat="Dex" value="322"/>
+		<PlayerStat stat="ReqDex" value="148"/>
+		<PlayerStat stat="Int" value="74"/>
+		<PlayerStat stat="ReqInt" value="47"/>
+		<PlayerStat stat="Life" value="3352"/>
+		<PlayerStat stat="Spec:LifeInc" value="186"/>
+		<PlayerStat stat="LifeUnreserved" value="3352"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="0"/>
+		<PlayerStat stat="LifeLeechGainRate" value="1256.2638334461"/>
+		<PlayerStat stat="Mana" value="611"/>
+		<PlayerStat stat="Spec:ManaInc" value="0"/>
+		<PlayerStat stat="ManaUnreserved" value="611"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="100"/>
+		<PlayerStat stat="ManaRegen" value="18.8"/>
+		<PlayerStat stat="ManaLeechGainRate" value="122.2"/>
+		<PlayerStat stat="EnergyShield" value="0"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="45"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="1315"/>
+		<PlayerStat stat="Spec:EvasionInc" value="243"/>
+		<PlayerStat stat="MeleeEvadeChance" value="13"/>
+		<PlayerStat stat="MeleeEvadeChance" value="13"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="13"/>
+		<PlayerStat stat="Armour" value="0"/>
+		<PlayerStat stat="Spec:ArmourInc" value="24"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="0"/>
+		<PlayerStat stat="MovementSpeedMod" value="1.49"/>
+		<PlayerStat stat="BlockChance" value="0"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="36"/>
+		<PlayerStat stat="SpellDodgeChance" value="10"/>
+		<PlayerStat stat="FireResist" value="-2"/>
+		<PlayerStat stat="ColdResist" value="75"/>
+		<PlayerStat stat="LightningResist" value="48"/>
+		<PlayerStat stat="ChaosResist" value="-60"/>
+		<PlayerStat stat="FireResistOverCap" value="0"/>
+		<PlayerStat stat="ColdResistOverCap" value="23"/>
+		<PlayerStat stat="LightningResistOverCap" value="0"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+	</Build>
+	<Calcs>
+		<Input name="skill_number" number="1"/>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Section collapsed="nil" id="SkillSelect"/>
+		<Section collapsed="nil" id="HitDamage"/>
+		<Section collapsed="nil" id="Dot"/>
+		<Section collapsed="nil" id="Speed"/>
+		<Section collapsed="nil" id="Crit"/>
+		<Section collapsed="nil" id="HitChance"/>
+		<Section collapsed="nil" id="SkillTypeStats"/>
+		<Section collapsed="nil" id="Bleed"/>
+		<Section collapsed="nil" id="Poison"/>
+		<Section collapsed="nil" id="Ignite"/>
+		<Section collapsed="nil" id="Decay"/>
+		<Section collapsed="nil" id="LeechGain"/>
+		<Section collapsed="nil" id="MiscEffects"/>
+		<Section collapsed="nil" id="Attributes"/>
+		<Section collapsed="nil" id="Life"/>
+		<Section collapsed="nil" id="Mana"/>
+		<Section collapsed="nil" id="EnergyShield"/>
+		<Section collapsed="nil" id="Armour"/>
+		<Section collapsed="nil" id="Evasion"/>
+		<Section collapsed="nil" id="Resist"/>
+		<Section collapsed="nil" id="DamageTaken"/>
+		<Section collapsed="nil" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="20" defaultGemLevel="19" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="19" skillId="IceShot" skillPart="1" quality="20" skillPartCalcs="1" enabled="true" nameSpec="Ice Shot" skillMinion="SummonedChaosGolem"/>
+			<Gem level="19" skillId="SupportGreaterMultipleProjectiles" quality="20" enabled="true" nameSpec="Greater Multiple Projectiles"/>
+			<Gem level="19" skillId="SupportWeaponElementalDamage" quality="20" enabled="true" nameSpec="Elemental Damage with Attacks"/>
+			<Gem level="19" skillId="SupportChain" quality="20" enabled="true" nameSpec="Chain"/>
+			<Gem level="19" skillId="SupportFrenzyChargeOnSlayingFrozenEnemy" skillPart="1" quality="20" enabled="true" nameSpec="Ice Bite" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" mainActiveSkill="nil"/>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec>
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIBAFuvFHWNub3mFyagn8Ggj2AFLWyMeBlVhU4qI9PrYyF2_rpaGg5IPL5RR4w2dO0j9klRvqdHfujWnap6hKl5LlPkalsmKjh_K3BSYeLqYnb3034k_V9wXfL_3oNtyMwRL2VNVvp9ddCtjX3veuOfjb831Le28NVirN9vFf14-bIZf_tDMcLsvTZB0BqNMfqBrD7PTZLuDnXLOdTDOtrBMHyNfod27T9vV7VIIurTb37dm42J0xa_eu9vJzY951QyAe-P_W4rCgBehs6VLqXL2NURlkz_jYEZjtQj7YOaanfXBbVnoLTFwzMHHgguz3rBMyoLVUsmlUp9
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="2"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="54127" itemId="5"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="60735" itemId="5"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<TreeView searchStr="maximum life" zoomY="424.78856140642" showHeatMap="false" zoomLevel="8" showStatDifferences="true" zoomX="-1450.5741089323"/>
+	<Items activeItemSet="1" useSecondWeaponSet="nil">
+		<Item variant="2" id="1">
+			Rarity: Unique
+Death&apos;s Opus
+Death Bow
+Variant: {2_6}Pre 3.0.0
+Variant: Current
+Requires Level 44, 107 Dex
+(30-50)% increased Critical Strike Chance
+(100-125)% increased Physical Damage
+Adds (10-20) to (30-35) Physical Damage
+10% increased Attack Speed
+{variant:1}+150% to Global Critical Strike Multiplier
+{variant:2}+100% to Global Critical Strike Multiplier
+2 additional Arrows
+			<ModRange range="1" id="1"/>
+			<ModRange range="0.8780487804878" id="2"/>
+			<ModRange range="0.86585365853659" id="3"/>
+		</Item>
+		<Item variant="11" id="3">
+			Rarity: Unique
+Vessel of Vinktar
+Topaz Flask
+Variant: Pre 2.2.0 (Penetration)
+Variant: Pre 2.2.0 (Spells)
+Variant: Pre 2.2.0 (Attacks)
+Variant: Pre 2.2.0 (Conversion)
+Variant: Pre 3.0.0 (Penetration)
+Variant: Pre 3.0.0 (Spells)
+Variant: Pre 3.0.0 (Attacks)
+Variant: {2_6}Pre 3.0.0 (Conversion)
+Variant: Current (Penetration)
+Variant: Current (Spells)
+Variant: Current (Attacks)
+Variant: Current (Conversion)
+Requires Level 68
+{variant:5,6,7,8,9,10,11,12}(80-100)% increased Charges used
+{variant:1,2,3,4,5,6,7,8}Shocks nearby Enemies during Flask effect
+{variant:9,10,11,12}Shocks nearby Enemies during Flask effect, causing 10% increased Damage taken
+{variant:1,2,3,4,5,6,7,8}You are Shocked during Flask effect
+{variant:9,10,11,12}You are Shocked during Flask effect, causing 50% increased Damage taken
+{variant:1,2,3,4}30% of Lightning Damage Leeched as Life during Flask effect
+{variant:5,6,7,8,9,10,11,12}20% of Lightning Damage Leeched as Life during Flask effect
+{variant:1,2,3,4}30% of Lightning Damage Leeched as Mana during Flask effect
+{variant:5,6,7,8}20% of Lightning Damage Leeched as Mana during Flask effect
+{variant:1,2,3,4}Leech applies instantly during Flask effect
+{variant:1,5,9}Damage Penetrates 10% Lightning Resistance during Flask effect
+{variant:2,6,10}Adds (15-25) to (70-90) Lightning Damage to Spells during Flask effect
+{variant:3,7,11}Adds (25-35) to (110-130) Lightning Damage to Attacks during Flask effect
+{variant:4,8,12}20% of Physical Damage Converted to Lightning during Flask effect
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="14"/>
+			<ModRange range="0.5" id="15"/>
+		</Item>
+		<Item variant="2" id="4">
+			Rarity: UNIQUE
+The Wise Oak
+Bismuth Flask
+Variant: Pre 3.0.0
+Variant: Current
+Selected Variant: 2
+Quality: 20
+LevelReq: 8
+Implicits: 0
+During Flask Effect, 10% reduced Damage taken of each Element for which your Uncapped
+Elemental Resistance is lowest
+{variant:1}During Flask Effect, Damage Penetrates 20% Resistance of each Element for which your
+Uncapped Elemental Resistance is highest
+{variant:2}{range:1}During Flask Effect, Damage Penetrates (10-15)% Resistance of each Element for which your
+Uncapped Elemental Resistance is highest
++100% to Cold resistance
+			<ModRange range="1" id="4"/>
+		</Item>
+		<Item id="2">
+			Rarity: Unique
+Lioneye&apos;s Fall
+Viridian Jewel
+Radius: Medium
+Melee and Melee Weapon Type modifiers in Radius are Transformed to Bow Modifiers
+		</Item>
+		<Item variant="2" id="5">
+			Rarity: Unique
+Omen on the Winds
+Viridian Jewel
+Variant: {2_6}Pre 3.0.0
+Variant: Current
+Limited to: 2
+Radius: Medium
+{variant:1}(15-20)% increased Damage against Chilled Enemies
+{variant:2}(15-20)% increased Damage with Hits against Chilled Enemies
+{variant:2}With at least 40 Dexterity in Radius, Ice Shot Pierces 5 additional Targets
+With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect
+{variant:1}With at least 40 Dexterity in Radius, Ice Shot has 50% chance of Projectiles Piercing
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="1" id="2"/>
+		</Item>
+		<Slot name="Weapon 1" itemId="1"/>
+		<Slot active="true" name="Flask 1" itemId="3"/>
+		<Slot active="true" name="Flask 2" itemId="4"/>
+		<ItemSet useSecondWeaponSet="nil" id="1">
+			<Slot name="Gloves" itemId="0"/>
+			<Slot name="Weapon 1" itemId="1"/>
+			<Slot active="true" name="Flask 1" itemId="3"/>
+			<Slot name="Flask 3" itemId="0"/>
+			<Slot name="Amulet" itemId="0"/>
+			<Slot active="true" name="Flask 2" itemId="4"/>
+			<Slot name="Weapon 2" itemId="0"/>
+			<Slot name="Boots" itemId="0"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Flask 4" itemId="0"/>
+			<Slot name="Belt" itemId="0"/>
+			<Slot name="Flask 5" itemId="0"/>
+			<Slot name="Body Armour" itemId="0"/>
+			<Slot name="Ring 1" itemId="0"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Helmet" itemId="0"/>
+			<Slot name="Ring 2" itemId="0"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="critChanceLucky" boolean="true"/>
+		<Input name="usePowerCharges" boolean="true"/>
+		<Input name="useFrenzyCharges" boolean="true"/>
+		<Input name="buffPhasing" boolean="true"/>
+	</Config>
+</PathOfBuilding>

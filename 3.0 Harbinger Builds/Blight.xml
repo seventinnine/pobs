@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="90" targetVersion="3_0" banditNormal="None" banditMerciless="None" className="Witch" ascendClassName="Occultist" mainSocketGroup="1" viewMode="SKILLS" banditCruel="None">
+		<PlayerStat stat="AverageDamage" value="349.10274"/>
+		<PlayerStat stat="Speed" value="1.452"/>
+		<PlayerStat stat="Speed" value="1.452"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="6"/>
+		<PlayerStat stat="CritChance" value="3.6"/>
+		<PlayerStat stat="CritMultiplier" value="1.5"/>
+		<PlayerStat stat="HitChance" value="60"/>
+		<PlayerStat stat="TotalDPS" value="506.89717848"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="WithPoisonDPS" value="506.89717848"/>
+		<PlayerStat stat="ManaCost" value="0"/>
+		<PlayerStat stat="Str" value="84"/>
+		<PlayerStat stat="ReqStr" value="153"/>
+		<PlayerStat stat="Dex" value="154"/>
+		<PlayerStat stat="ReqDex" value="116"/>
+		<PlayerStat stat="Int" value="252"/>
+		<PlayerStat stat="ReqInt" value="151"/>
+		<PlayerStat stat="Life" value="5476"/>
+		<PlayerStat stat="Spec:LifeInc" value="196"/>
+		<PlayerStat stat="LifeUnreserved" value="5476"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="207.136"/>
+		<PlayerStat stat="LifeLeechGainRate" value="4.05517742784"/>
+		<PlayerStat stat="Mana" value="922"/>
+		<PlayerStat stat="Spec:ManaInc" value="28"/>
+		<PlayerStat stat="ManaUnreserved" value="122"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="13.232104121475"/>
+		<PlayerStat stat="ManaRegen" value="43.5"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="EnergyShield" value="599"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="77"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="6819"/>
+		<PlayerStat stat="Spec:EvasionInc" value="147"/>
+		<PlayerStat stat="MeleeEvadeChance" value="35"/>
+		<PlayerStat stat="MeleeEvadeChance" value="35"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="35"/>
+		<PlayerStat stat="Armour" value="1645"/>
+		<PlayerStat stat="Spec:ArmourInc" value="24"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="12"/>
+		<PlayerStat stat="MovementSpeedMod" value="1.08"/>
+		<PlayerStat stat="BlockChance" value="27"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="0"/>
+		<PlayerStat stat="SpellDodgeChance" value="0"/>
+		<PlayerStat stat="FireResist" value="15"/>
+		<PlayerStat stat="ColdResist" value="15"/>
+		<PlayerStat stat="LightningResist" value="15"/>
+		<PlayerStat stat="ChaosResist" value="-40"/>
+		<PlayerStat stat="FireResistOverCap" value="0"/>
+		<PlayerStat stat="ColdResistOverCap" value="0"/>
+		<PlayerStat stat="LightningResistOverCap" value="0"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+	</Build>
+	<Calcs>
+		<Input name="skill_number" number="8"/>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Section collapsed="nil" id="SkillSelect"/>
+		<Section collapsed="nil" id="HitDamage"/>
+		<Section collapsed="nil" id="Dot"/>
+		<Section collapsed="nil" id="Speed"/>
+		<Section collapsed="nil" id="Crit"/>
+		<Section collapsed="nil" id="HitChance"/>
+		<Section collapsed="nil" id="SkillTypeStats"/>
+		<Section collapsed="nil" id="Bleed"/>
+		<Section collapsed="nil" id="Poison"/>
+		<Section collapsed="nil" id="Ignite"/>
+		<Section collapsed="nil" id="Decay"/>
+		<Section collapsed="nil" id="LeechGain"/>
+		<Section collapsed="nil" id="MiscEffects"/>
+		<Section collapsed="nil" id="Attributes"/>
+		<Section collapsed="nil" id="Life"/>
+		<Section collapsed="nil" id="Mana"/>
+		<Section collapsed="nil" id="EnergyShield"/>
+		<Section collapsed="nil" id="Armour"/>
+		<Section collapsed="nil" id="Evasion"/>
+		<Section collapsed="nil" id="Resist"/>
+		<Section collapsed="nil" id="DamageTaken"/>
+		<Section collapsed="nil" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="nil" defaultGemLevel="19" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="Blight" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem level="19" skillId="SupportEfficacy" quality="0" enabled="true" nameSpec="Efficacy"/>
+			<Gem level="19" skillId="SupportControlledDestruction" quality="0" enabled="true" nameSpec="Controlled Destruction"/>
+			<Gem level="19" skillId="SupportFasterCast" quality="0" enabled="true" nameSpec="Faster Casting"/>
+			<Gem level="19" skillId="SupportVoidManipulation" quality="0" enabled="true" nameSpec="Void Manipulation"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Boots" mainActiveSkill="nil">
+			<Gem level="19" skillId="SupportBlasphemy" skillPart="1" quality="0" enabled="true" nameSpec="Blasphemy"/>
+			<Gem level="19" skillId="TemporalChains" quality="0" enabled="true" nameSpec="Temporal Chains"/>
+			<Gem level="10" skillId="Clarity" quality="0" enabled="true" nameSpec="Clarity"/>
+			<Gem level="19" skillId="Purity" skillPart="1" quality="0" enabled="true" nameSpec="Purity of Elements"/>
+		</Skill>
+		<Skill source="Item:2:The Unshattered Will, Archon Kite Shield" mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2" mainActiveSkill="1">
+			<Gem level="1" skillId="SummonHarbingerOfFocus" quality="0" enabled="true" nameSpec="SummonHarbingerOfFocus"/>
+			<Gem level="1" skillId="SupportCastOnDamageTaken" quality="0" enabled="true" nameSpec="Cast when Damage Taken"/>
+			<Gem level="19" skillId="SupportIncreasedDuration" quality="0" enabled="true" nameSpec="Increased Duration"/>
+		</Skill>
+		<Skill source="Item:4:Allelopathy, Sorcerer Gloves" mainActiveSkillCalcs="1" label="" enabled="false" slot="Gloves" mainActiveSkill="1">
+			<Gem level="22" skillId="Blight" quality="0" enabled="true" nameSpec="Blight"/>
+			<Gem level="19" skillId="SupportEfficacy" quality="0" enabled="true" nameSpec="Efficacy"/>
+			<Gem level="19" skillId="SupportControlledDestruction" quality="0" enabled="true" nameSpec="Controlled Destruction"/>
+			<Gem level="19" skillId="SupportFasterCast" quality="0" enabled="true" nameSpec="Faster Casting"/>
+			<Gem level="19" skillId="SupportVoidManipulation" quality="0" enabled="true" nameSpec="Void Manipulation"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="19" skillId="AbyssalCry" quality="0" enabled="true" nameSpec="Abyssal Cry"/>
+			<Gem level="19" skillId="SupportVoidManipulation" quality="0" enabled="true" nameSpec="Void Manipulation"/>
+			<Gem level="19" skillId="SupportIncreasedAreaOfEffect" quality="0" enabled="true" nameSpec="Increased Area of Effect"/>
+			<Gem level="19" skillId="SupportLifeLeech" skillPart="1" quality="0" enabled="true" nameSpec="Life Leech"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
+			<Gem level="19" skillId="Wither" skillPart="4" quality="20" skillPartCalcs="1" enabled="true" nameSpec="Wither"/>
+			<Gem level="19" skillId="SupportSpellTotem" quality="0" enabled="true" nameSpec="Spell Totem"/>
+			<Gem level="19" skillId="SupportFasterCast" skillPart="1" quality="0" enabled="true" nameSpec="Faster Casting" skillMinion="SummonedChaosGolem"/>
+			<Gem level="19" skillId="SupportIncreasedDuration" quality="20" enabled="true" nameSpec="Increased Duration"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem level="19" skillId="NewShieldCharge" skillPart="1" quality="0" enabled="true" nameSpec="Shield Charge"/>
+			<Gem level="19" skillId="SupportFasterAttack" skillPart="1" quality="0" enabled="true" nameSpec="Faster Attacks" skillMinion="SummonedChaosGolem"/>
+			<Gem level="19" skillId="SupportFortify" quality="0" enabled="true" nameSpec="Fortify"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2" mainActiveSkill="nil">
+			<Gem level="3" skillId="ImmortalCall" quality="0" enabled="true" nameSpec="Immortal Call"/>
+			<Gem level="1" skillId="SupportCastOnDamageTaken" quality="0" enabled="true" nameSpec="Cast when Damage Taken"/>
+			<Gem level="19" skillId="SupportIncreasedDuration" quality="0" enabled="true" nameSpec="Increased Duration"/>
+		</Skill>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec>
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMBABzcenAqTQj0tzCJ4LTRvOq18l-Y99dsjLtNOuEmlSL0m7UC4-_roS8TbQ5IVUu1SJrgkQdCepUuFAm-is96RZ1_xpf0BAfA49-wadhLVz8nrEeTHwel3V9SU6ZXTePyRevukyd1nmpDD6s1kv6PYqxsC26qshlVxiycXECDCXyDu_zYveZYzzKHy8M6Z_yPGp2qES2P-ha_FvMHHoIQFX52gpeVX7Bd8m0ZSsgi6lltg9s9X2-eU1KsmH6hNj3PFTIBJItJshGW62MrClFMUq988PGzJjzQH_4KOljKSkkTSVFh4kyzJoiExcgML53w1X1bp5sRLw==
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="6"/>
+				<Socket nodeId="33989" itemId="6"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="3"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="41263" itemId="3"/>
+				<Socket nodeId="61834" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<TreeView searchStr="life regen" zoomY="596.56831172839" showHeatMap="false" zoomLevel="7" showStatDifferences="true" zoomX="-74.716225925926"/>
+	<Items activeItemSet="1" useSecondWeaponSet="nil">
+		<Item variant="2" id="1">
+			Rarity: Unique
+Breath of the Council
+Carnal Sceptre
+Variant: {2_6}Pre 3.0.0
+Variant: Current
+Requires Level 66, 113 Str, 113 Int
+32% increased Elemental Damage
+(260-310)% increased Physical Damage
+{variant:1}(60-80)% increased Chaos Damage
+{variant:2}(80-100)% increased Chaos Damage
+10% increased Area of Effect of Area Skills
+40% increased Chaos Skill Effect Duration
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item id="2">
+			Rarity: Unique
+The Unshattered Will
+Archon Kite Shield
+League: Harbinger
+Requires Level 68, 85 Str, 85 Int
++12% to all Elemental Resistances
+Grants Summon Harbinger of Focus Skill
++(60-80) to maximum Life
++(10-15)% to all Elemental Resistances
++(30-50) Mana gained when you Block
++5% Chance to Block
+(50-70)% increased Damage with Channelling Skills
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item variant="3" id="5">
+			Rarity: Unique
+Cherrubim&apos;s Maleficence
+Triumphant Lamellar
+Variant: Pre 2.0.0
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 69, 95 Str, 116 Dex
+{variant:1,2}(10-20)% increased Chaos Damage
+{variant:3}(50-80)% increased Chaos Damage
+(160-200)% increased Armour and Evasion
++(70-100) to maximum Life
+{variant:1}30% increased Life Leeched per second
+{variant:2,3}100% increased Life Leeched per second
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.73170731707317" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.82926829268293" id="4"/>
+		</Item>
+		<Item id="4">
+			Rarity: Unique
+Allelopathy
+Sorcerer Gloves
+Requires Level 69, 97 Int
+Grants level 22 Blight Skill
+(20-30)% increased Damage over Time
+(100-120)% increased Energy Shield
+10% increased Area of Effect of Area Skills
+Blight has (20-30)% increased Hinder Duration
+You cannot be Hindered
+			<ModRange range="1" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="1" id="7">
+			Rarity: Unique
+Bloodgrip
+Marble Amulet
+Variant: Current
+Requires Level 55
+(1.2-1.6)% of Life Regenerated per second
+Adds 10 to 20 Physical Damage to Attacks
++(60-70) to maximum Life
+(8-12) Life Regenerated per second
+100% increased Life Recovery from Flasks
+Moving while Bleeding doesn&apos;t cause you to take extra Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item id="6">
+			Rarity: RARE
+New Item
+Cobalt Jewel
+Crafted: true
+Prefix: {range:0.5}PercentIncreasedLifeJewel
+Prefix: None
+Suffix: {range:0.5}DamageOverTimeJewel
+Suffix: {range:0.5}AreaDamageJewel
+Quality: 0
+LevelReq: 0
+Implicits: 0
+11% increased Damage over Time
+6% increased maximum Life
+11% increased Area Damage
+		</Item>
+		<Item id="3">
+			Rarity: Unique
+Spreading Rot
+Cobalt Jewel
+Limited to: 2
+Radius: Medium
+(7-13)% increased Chaos Damage
+With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration
+With at least 40 Intelligence in Radius, Enemies Hindered by Blight take 25% increased Chaos Damage
+			<ModRange range="1" id="1"/>
+		</Item>
+		<Item id="8">
+			Rarity: RARE
+New Item
+Leather Belt
+Crafted: true
+Prefix: {range:1}IncreasedLife4
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 0
+LevelReq: 19
+Implicits: 1
+{range:0.5}+(25-40) to maximum Life
++335 to maximum Life
+			<ModRange range="0.5" id="1"/>
+		</Item>
+		<Item variant="2" id="9">
+			Rarity: Unique
+Witchfire Brew
+Stibnite Flask
+Variant: {2_6}Pre 3.0.0
+Variant: Current
+Requires Level 48
+Implicits: 1
+Creates a Smoke Cloud on Use
+50% increased Charges used
+{variant:1}(50-70)% increased Damage Over Time during Flask Effect
+{variant:2}(25-40)% increased Damage Over Time during Flask Effect
+Grants level 21 Vulnerability Curse Aura during Flask Effect
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Slot name="Gloves" itemId="4"/>
+		<Slot name="Weapon 1" itemId="1"/>
+		<Slot active="true" name="Flask 1" itemId="9"/>
+		<Slot name="Amulet" itemId="7"/>
+		<Slot name="Weapon 2" itemId="2"/>
+		<Slot name="Belt" itemId="8"/>
+		<Slot name="Body Armour" itemId="5"/>
+		<ItemSet useSecondWeaponSet="nil" id="1">
+			<Slot name="Gloves" itemId="4"/>
+			<Slot name="Weapon 1" itemId="1"/>
+			<Slot active="true" name="Flask 1" itemId="9"/>
+			<Slot name="Flask 3" itemId="0"/>
+			<Slot name="Amulet" itemId="7"/>
+			<Slot name="Flask 2" itemId="0"/>
+			<Slot name="Weapon 2" itemId="2"/>
+			<Slot name="Boots" itemId="0"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Flask 4" itemId="0"/>
+			<Slot name="Belt" itemId="8"/>
+			<Slot name="Flask 5" itemId="0"/>
+			<Slot name="Body Armour" itemId="5"/>
+			<Slot name="Ring 1" itemId="0"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Helmet" itemId="0"/>
+			<Slot name="Ring 2" itemId="0"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="conditionEnemyHindered" boolean="true"/>
+		<Input name="enemyIsBoss" string="SHAPER"/>
+	</Config>
+</PathOfBuilding>
